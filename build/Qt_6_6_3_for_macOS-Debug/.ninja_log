@@ -1,0 +1,24 @@
+# ninja log v6
+746	4643	1733988162973187463	CMakeFiles/college_mental_health.dir/src/moodtracker.cpp.o	98160ab7ca54fdc5
+643	745	1733988162969977690	college_mental_health_autogen/UVLADIE3JM/qrc_resources.cpp	47d01190e2d0e363
+4	25	1733988162167318086	CMakeFiles/clean.additional	ec2d42f0e143c33f
+745	5344	1733988162972924048	CMakeFiles/college_mental_health.dir/src/mainwindow.cpp.o	92568199738214e9
+25	38	1733988162188375588	clean	dcd4b6afe88e109c
+9	643	1733988162849254645	college_mental_health_autogen/timestamp	916d5cd524384c8e
+746	4731	1733988162973444087	CMakeFiles/college_mental_health.dir/src/exercisewidget.cpp.o	2686463b281397dc
+753	4728	1733988162980145048	CMakeFiles/college_mental_health.dir/src/progresswidget.cpp.o	b7d821aebcb7996b
+4728	5538	1733988166955461626	CMakeFiles/college_mental_health.dir/college_mental_health_autogen/UVLADIE3JM/qrc_resources.cpp.o	83da5c15351630fa
+9	643	1733988162849254645	/Users/jannatulnaima/Documents/college_mental_health/build/Qt_6_6_3_for_macOS-Debug/college_mental_health_autogen/mocs_compilation.cpp	916d5cd524384c8e
+9	643	1733988162849254645	/Users/jannatulnaima/Documents/college_mental_health/build/Qt_6_6_3_for_macOS-Debug/college_mental_health_autogen/timestamp	916d5cd524384c8e
+643	745	1733988162969977690	/Users/jannatulnaima/Documents/college_mental_health/build/Qt_6_6_3_for_macOS-Debug/college_mental_health_autogen/UVLADIE3JM/qrc_resources.cpp	47d01190e2d0e363
+9	643	1733988162849254645	college_mental_health_autogen/mocs_compilation.cpp	916d5cd524384c8e
+4643	6259	1733988166870517039	CMakeFiles/college_mental_health.dir/src/logindialog.cpp.o	c79ec86179960798
+754	4793	1733988162981457457	CMakeFiles/college_mental_health.dir/src/databasemanager.cpp.o	b02782fe8a066b3c
+745	4940	1733988162972645925	CMakeFiles/college_mental_health.dir/src/main.cpp.o	cd4b2d94f6629cae
+749	5154	1733988162976818234	CMakeFiles/college_mental_health.dir/src/taskwidget.cpp.o	5d92fc3fe6d83ed6
+748	5227	1733988162975470825	CMakeFiles/college_mental_health.dir/src/chatwidget.cpp.o	5832c7648b1ace9d
+746	5262	1733988162973694377	CMakeFiles/college_mental_health.dir/src/schedulewidget.cpp.o	e17af3cc806e57ab
+745	5396	1733988162972241511	CMakeFiles/college_mental_health.dir/college_mental_health_autogen/mocs_compilation.cpp.o	2e0cc38c83624afc
+6259	6498	1733988168486149604	college_mental_health	4ccbeeadc141bcf2
+22	51	1733991075699391242	CMakeFiles/clean.additional	ec2d42f0e143c33f
+51	65	1733991075728289057	clean	dcd4b6afe88e109c
