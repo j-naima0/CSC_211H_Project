@@ -25,6 +25,7 @@ add_executable(${PROJECT_NAME}
     src/logindialog.h src/logindialog.cpp
     src/resources.qrc
     src/exceptions.h
+    src/moodinfodialog.h src/moodinfodialog.cpp
 
 
 

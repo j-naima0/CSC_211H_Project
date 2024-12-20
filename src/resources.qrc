@@ -6,5 +6,6 @@
         <file>background3.png</file>
         <file>background1.png</file>
         <file>white.background</file>
+        <file>back.png</file>
     </qresource>
 </RCC>

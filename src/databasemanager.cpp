@@ -1,4 +1,5 @@
 #include "databasemanager.h"
+#include "exceptions.h"  // Use quotes instead of angle brackets
 #include <QCryptographicHash>
 #include <QDateTime>
 #include <QSqlQuery>
@@ -135,36 +136,6 @@ bool DatabaseManager::registerUser(const QString &username, const QString &passw
     return true;
 }
 
-/*bool DatabaseManager::loginUser(const QString &username, const QString &password)
-{
-    QSqlQuery query;
-    query.prepare("SELECT id FROM users WHERE username = :username AND password = :password");
-    query.bindValue(":username", username);
-    query.bindValue(":password", hashPassword(password));
-
-    if (!query.exec() || !query.next()) {
-        qDebug() << "Login failed:" << query.lastError().text();
-        return false;
-    }
-    return true;
-}
-
-bool DatabaseManager::saveMoodEntry(const QString &username, const QString &mood, const QDateTime &timestamp)
-{
-    QSqlQuery query;
-    query.prepare("INSERT INTO mood_entries (user_id, mood, timestamp) "
-                  "SELECT id, :mood, :timestamp FROM users WHERE username = :username");
-    query.bindValue(":username", username);
-    query.bindValue(":mood", mood);
-    query.bindValue(":timestamp", timestamp);
-
-    if (!query.exec()) {
-        qDebug() << "Error saving mood entry:" << query.lastError().text();
-        return false;
-    }
-    return true;
-}
-*/
 bool DatabaseManager::loginUser(const QString &username, const QString &password)
 {
     try {

@@ -387,6 +387,12 @@
 			null
 		],
 		[
+			"/Users/jannatulnaima/Documents/college_mental_health/src/moodinfodialog.h",
+			"MU",
+			"UVLADIE3JM/moc_moodinfodialog.cpp",
+			null
+		],
+		[
 			"/Users/jannatulnaima/Documents/college_mental_health/src/moodtracker.h",
 			"MU",
 			"UVLADIE3JM/moc_moodtracker.cpp",
@@ -450,7 +456,7 @@
 		"/Users/jannatulnaima/Qt/6.6.3/macos/lib/QtSql.framework/Headers",
 		"/Users/jannatulnaima/Qt/6.6.3/macos/lib/QtSql.framework",
 		"/usr/include",
-		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include"
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -511,6 +517,11 @@
 		],
 		[
 			"/Users/jannatulnaima/Documents/college_mental_health/src/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/jannatulnaima/Documents/college_mental_health/src/moodinfodialog.cpp",
 			"MU",
 			null
 		],

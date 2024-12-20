@@ -62,6 +62,7 @@ private:
 
 #include <QWidget>
 #include <QVector>
+#include "moodinfodialog.h"
 
 class MoodTracker : public QWidget
 {
@@ -70,6 +71,9 @@ class MoodTracker : public QWidget
 public:
     explicit MoodTracker(QWidget *parent = nullptr);
     virtual ~MoodTracker() = default;
+
+private slots:
+    void onMoodSelected(const QString& mood);  // Add this slot
 
 private:
     // Any private members you need

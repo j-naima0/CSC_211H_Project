@@ -66,59 +66,6 @@ void MainWindow::setupUI()
     createTabs();
     mainLayout->addWidget(tabWidget);
 }
-/*
-void MainWindow::createHeader()
-{
-    QWidget *header = new QWidget(this);
-    QHBoxLayout *headerLayout = new QHBoxLayout(header);
-
-    // Set proper margins and spacing
-    headerLayout->setContentsMargins(10, 0, 10, 0);
-    header->setStyleSheet("background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #3b82f6);");
-
-    /// Left container for logo/title
-    QWidget *leftContainer = new QWidget;
-    QHBoxLayout *leftLayout = new QHBoxLayout(leftContainer);
-    titleLabel = new QLabel("College Mental Health Companion");
-    leftLayout->addWidget(titleLabel);
-    // Left side - Title
-    QLabel *titleLabel = new QLabel("Good Morning ! Welcome To Your Mental Health Companion");
-    titleLabel->setStyleSheet("color: white; font-size: 30px; font-weight: bold;");
-    headerLayout->addWidget(titleLabel);
-
-    // Right side - User info and logout
-    QHBoxLayout *rightLayout = new QHBoxLayout;
-    rightLayout->setSpacing(15);
-
-    //Username label
-    userLabel = new QLabel(username);
-    userLabel->setStyleSheet("color: white; font-weight: bold;");
-    rightLayout->addWidget(userLabel);
-
-
-    // Logout button
-    QPushButton *logoutBtn = new QPushButton("Logout");
-    logoutBtn->setStyleSheet(R"(
-        QPushButton {
-            background-color: #ef4444;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 6px;
-            font-weight: bold;
-        }
-        QPushButton:hover {
-            background-color: #dc2626;
-        }
-    )");
-    connect(logoutBtn, &QPushButton::clicked, this, &MainWindow::handleLogout);
-    rightLayout->addWidget(logoutBtn);
-    headerLayout->addStretch();
-    headerLayout->addLayout(rightLayout);
-
-    header->setFixedHeight(60);
-    centralWidget()->layout()->addWidget(header);
-}
-*/
 
 void MainWindow::createHeader()
 {
@@ -177,6 +124,7 @@ void MainWindow::setUsername(const QString &name)
         createHeader();
     }
 }
+
 void MainWindow::createTabs()
 {
     // Create tabs
@@ -451,7 +399,7 @@ QWidget* MainWindow::createSupportTab()
     ChatWidget *chatWidget = new ChatWidget;
     layout->addWidget(chatWidget);
     /* supportTab->setStyleSheet("background-color: #f3f4f6;"); */
-    supportTab->setStyleSheet(":/resources/images/white.background");
+    supportTab->setStyleSheet(":/resources/images/back.png");
     return supportTab;
 }
 
@@ -477,7 +425,7 @@ QWidget* MainWindow::createProgressTab()
     ProgressWidget *progressWidget = new ProgressWidget;
     layout->addWidget(progressWidget);
 
-    progressTab->setStyleSheet(":/resources/images/white.background");
+    progressTab->setStyleSheet(":/resources/images/back.png");
     return progressTab;
 }
 
